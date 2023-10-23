@@ -1,0 +1,102 @@
+#palette-1 {
+    font-family: cursive;
+    text-align: center;
+}
+
+#p1-c1 {
+    background-color: #7cff00;
+    padding: 24px;
+    text-align: left;
+    font-family: cursive;
+    color: black;
+}
+
+#p1-c2 {
+    background-color: #00dfff;
+    padding: 24px;
+    text-align: right;
+    font-family: cursive;
+    color: purple;
+}
+
+#p1-c3 {
+    background-color: #ff4ea5;
+    padding: 24px;
+    text-align: left;
+    font-family: cursive;
+    color: white;
+}
+
+#palette-2 {
+    font-family: Lucida;
+    text-align: center;
+}
+
+#p2-c1 {
+    background-color: #00B4D8;
+    padding: 24px;
+    text-align: center;
+    font-family: Lucida;
+    color: white;
+}
+
+#p2-c2 {
+    background-color: #90E0EF;
+    padding: 24px;
+    text-align: center;
+    font-family: Lucida;
+    color: white;
+}
+
+#p2-c3 {
+    background-color: #ADE8F4;
+    padding: 24px;
+    text-align: center;
+    font-family: Lucida;
+    color: white;
+}
+
+#palette-3 {
+    font-family: serif;
+    text-align: center;
+}
+
+#p3-c1 {
+    background-color: #FFD6FF;
+    padding: 24px;
+    text-align: center;
+    font-family: serif;
+    color: navy;
+}
+
+#p3-c2 {
+    background-color: #E7C6FF;
+    padding: 24px;
+    text-align: center;
+    font-family: serif;
+    color: navy;
+}
+
+#p3-c3 {
+    background-color: #C8B6FF;
+    padding: 24px;
+    text-align: center;
+    font-family: serif;
+    color: navy;
+}
+
+#p3-c4 {
+    background-color: #B8C0FF;
+    padding: 24px;
+    text-align: center;
+    font-family: serif;
+    color: navy;
+}
+
+#p3-c5 {
+    background-color: #BBD0FF;
+    padding: 24px;
+    text-align: center;
+    font-family: serif;
+    color: navy;
+}
