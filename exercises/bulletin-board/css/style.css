@@ -1,0 +1,91 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    background-color: #80ffdb;
+    display: inline-block;
+    width: 15%;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: cursive;
+}
+img {
+    width: 100%;
+}
+.purple {
+    background-color: #6930c3;
+    color: black;
+    font-family: initial;
+}
+.pastel {
+    background-color: #fbf8cc;
+    width: 15%;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: cursive;
+}
+img {
+    width: 100%
+}
+.teal {
+    background-color: #c4fff9;
+    width: 15%;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: cursive;
+}
+img {
+    width: 85%
+}
+.orange {
+    background-color: #bc3908;
+    width: 15%;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: spooky;
+}
+img {
+    width: 85%
+}
+.grey {
+    background-color: #4b4c52;
+    width: 15%;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: spooky;
+}
+img {
+    width: 85%
+}
+.green {
+    background-color: #18392b;
+    width: 10%;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: spooky;
+}
+img {
+    width: 50%
+}
+.red {
+    background-color: #720714;
+    width: 15%;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: spooky;
+}
+img {
+    width: 85%;
+}
