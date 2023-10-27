@@ -1,0 +1,22 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+img {
+    width: 100%;
+}
+.frame-1 {
+    border: 5px solid #adbcd3;
+    margin: 70px 12px 0px;
+    width: 80px;
+    box-shadow: 10px 1px 5px #717984;
+}
+.frame-1 div {
+    padding: 12px;
+    background-color: white;
+    box-shadow: inset -1px 1px 2px #3a363a;
+}
