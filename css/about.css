@@ -1,0 +1,28 @@
+#paragraph-1 {
+    text-align: center;
+    font-style: italic;
+    display: inline-block;
+    width: 50%;
+    margin-left: 15px;
+}
+#paragraph-2 {
+    text-align: center;
+    font-style: italic;
+    display: inline-block;
+    margin-left: 5px;
+}
+img {
+    text-align: center;
+    display: inline-block;
+}
+.frame-1 {
+    border: 5px solid rgb(158, 232, 249);
+    margin: 15px 0px;
+    width: 225px;
+    box-shadow: 10px 1px 5px rgba(162, 225, 240, 0.621);
+    text-align: center;
+}
+div {
+    text-align: center;
+    display: inline-block;
+}
