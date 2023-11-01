@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    font-family: cursive;
+    text-align: center;
+    font-style: italic;
+    color: #edc531;
+}
+.first-container {
+    background-color: #190028;
+    padding: 48px 0px;
+}
+.second-container {
+    background-color: #c86bfa;
+    padding: 48px 0px;
+}
+.third-container {
+    background-color: #290024;
+    padding: 48px 0px;
+}
+.fourth-container {
+    background-color: #840fe8;
+    padding: 48px 0px;
+}
+
+#section-1, #section-2, #section-3, #section-4, #section-5 {
+    width: 50%;
+    min-width: 500px;
+    margin: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
