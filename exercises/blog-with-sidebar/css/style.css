@@ -54,8 +54,8 @@ body {
 #main-content {
     grid-area: content;
     margin: 48px 36px;
-    border: 2px solid black;
+    border: 5px solid white;
     padding: 36px;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(163, 237, 247);
 }
