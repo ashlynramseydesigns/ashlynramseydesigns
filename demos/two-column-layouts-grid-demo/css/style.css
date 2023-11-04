@@ -1,0 +1,72 @@
+/*
+    This demo is going to feel a bit like dejavu, as
+    it's very similar to the demo from the previous
+    day of class, but this time we're using CSS Grid
+    to do the same things rather than Flexbox.
+    
+    Once again, we're going to showcase three different
+    two column layouts that you could potentially use 
+    for a web page, just using CSS Grid this time,
+    although we're also going to through in a twist
+    at the end with a differently styled sidebar.
+
+    The HTML setup is also exactly the same as yesterday
+    just with a different container class name: 
+    "grid-layout" instead of "two-columns"
+    
+    We'll be modifying things towards the end of the 
+    demo, so the name change will make more sense then.
+*/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 450px 250px 1fr;
+    grid-template-areas:
+        ". content sidebar ."
+    ;
+}
+
+#sidebar-content {
+    grid-area: sidebar;
+    padding: 18px;
+}
+#sidebar-content h2 {
+    background-color: rgb(228, 150, 122);
+    margin: 0px;
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+}
+#sidebar-content ul {
+    background-color: rgb(254, 214, 200);
+    border: 1px solid black;
+    margin: 0px 0px 36px;
+    list-style-type: none;
+    padding: 0px 12px;
+}
+#sidebar-content a {
+    color: black;
+    text-decoration: none;
+}
+#sidebar-content li {
+    border-bottom: 1px solid black;
+    padding: 8px 0px;
+}
+
+#sidebar-content li:last-child {
+    border-bottom: 0px;
+}
+
+#main-content {
+    grid-area: content;
+    margin: 0px 36px;
+}
+
