@@ -45,7 +45,7 @@ body {
 #header a {
     text-decoration: none;
 }
-#hearder #me {
+#header #me {
     color: #111;
 }
 #header #tube {
@@ -83,15 +83,16 @@ body {
     flex-wrap: wrap;
 }
 
-.me-tube-item {
+.metube-item {
     flex: 250px;
     margin-right: 12px;
     margin-bottom: 24px;
 }
 
 .metube-item .thumbnail-placeholder {
-    aspect-ratio: 16px / 9;
-    background: radial-gradient(at top left, pink, purple);
+    aspect-ratio: 16 / 9;
+    background: radial-gradient(at top left, 
+    pink, purple);
     border-radius: 8px;
 }
 
