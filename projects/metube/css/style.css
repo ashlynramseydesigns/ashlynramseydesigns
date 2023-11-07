@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+    background-color: black;
 }
 body {
     margin: 0px;
     font-family: sans-serif;
+    color: purple;
 }
 
 #grid-layout {
@@ -23,34 +25,33 @@ body {
     text-decoration: none;
 }
 #header #me {
-    color: #111;
+    color: purple;
+    border-radius: 5px;
 }
 #header #tube {
-    color: white;
-    background-color: lightblue;
-    padding: 4px;
-    border-radius: 12px;
+    color: lightblue;
 }
 
 #sidebar {
     grid-area: sidebar;
     padding: 0px 24px;
+    color: purple;
 }
 #sidebar ul {
     list-style-type: none;
     padding: 12px 0px;
     margin: 0px;
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid purple;
 }
 #sidebar ul a {
     text-decoration: none;
-    color: #111;
+    color: lightblue;
     display: block;
     padding: 12px;
 }
 
 #sidebar ul a:hover {
-    background-color: #eee;
+    background-color: purple;
     border-radius: 12px;
 }
 
@@ -66,19 +67,12 @@ body {
     margin-bottom: 24px;
 }
 
-.metube-item .thumbnail-placeholder {
-    aspect-ratio: 16 / 9;
-    background: radial-gradient(at top left, 
-    pink, purple);
-    border-radius: 8px;
-}
-
 .metube-item h4 {
     margin: 8px;
 }
 .metube-item h4 a {
     text-decoration: none;
-    color: #111;
+    color: lightblue;
     display: block;
 }
 .metube-item .video-details {
