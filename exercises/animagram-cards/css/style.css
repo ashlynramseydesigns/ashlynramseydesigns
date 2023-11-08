@@ -1,0 +1,57 @@
+.card-style-2 {
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    margin: 24px;
+    border-radius: 45px;
+}
+
+.profile-pic-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-style-2 img {
+    width: 55%;
+    border-radius: 50%;
+}
+
+.animagram-header {
+    display: flex;
+    text-align: right;
+    font-size: 28px;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-style-2 h2 {
+    text-align: center;
+}
+
+.card-style-2 p {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+
+.animagram-footer {
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    margin: 24px 24px;
+    margin-top: 45px;
+}
+
+.card-style-2 a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid green;
+    transition:
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
