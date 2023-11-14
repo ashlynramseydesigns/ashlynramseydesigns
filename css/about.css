@@ -1,9 +1,28 @@
+body a {
+    display: flex;
+    text-align: right;
+    padding: 24px;
+    background-color: aqua;
+}
+
+#image-1 {
+    display: inline-block;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+#image-2 {
+    width: 100px;
+}
+
 #paragraph-1 {
     text-align: center;
-    font-style: italic;
     display: inline-block;
-    width: 50%;
     margin-left: 15px;
+    background: aqua;
+    border-radius: 45px;
+    padding: 24px;
 }
 #paragraph-2 {
     text-align: center;
@@ -11,10 +30,7 @@
     display: inline-block;
     margin-left: 5px;
 }
-img {
-    text-align: center;
-    display: inline-block;
-}
+
 .frame-1 {
     border: 5px solid rgb(158, 232, 249);
     margin: 15px 0px;
