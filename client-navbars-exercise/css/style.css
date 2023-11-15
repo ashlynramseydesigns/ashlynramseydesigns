@@ -14,9 +14,24 @@ body {
     position: sticky;
     top: 0px;
 }
+
 /* navbar stlyes*/
 #navbar {
     background: linear-gradient(to bottom, #a98467, #6c584c);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar #header-2 {
+    background: linear-gradient(to bottom, #472d30, #723d46);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar #header-2 {
+    background: linear-gradient(to bottom, #472d30, #723d46);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,51 +83,4 @@ body {
     margin: 48px auto;
     font-size: 24px;
     height: 200vh;
-}
-
-#navbar-bottom {
-    background: linear-gradient(to bottom, #6a7152, #596248);
-    display: flex;
-    justify-content: space-between;
-}
-
-#navbar-bottom a {
-    text-decoration: none;
-    color: #352208;
-    padding: 12px 36px;
-}
-
-#footer {
-    background-color: #344e41;
-    color: #344e41;
-    padding: 12px;
-}
-
-#footer-navbar {
-    width: 800px;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-#footer a {
-    text-decoration: none;
-    color: #352208;
-}
-
-#footer-columns-navbar {
-    width: 800px;
-    margin: 0px auto;
-    padding: 48px 0px;
-    display: flex;
-    justify-content: space-between;
-}
-
-#footer-columns-navbar div {
-    display: flex;
-    flex-direction: column;
-}
-
-#footer-columns-navbar a {
-    padding: 8px 0px;
 }
