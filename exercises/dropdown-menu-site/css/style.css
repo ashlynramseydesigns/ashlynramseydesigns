@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("../images/pawprints.jpeg");
+    background-size: cover;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #7b2cbf, #5a189a);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, #a5a6f6, #7879f1);
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: #9d4edd;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #a56ad4;
+}
+
+#single-column-layout {
+    width: 50%;
+    min-width: 500px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-page {
+    background-color: #e7c6ffa2;
+    margin-top: 80px;
+    padding: 50px;
+    margin: 24px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+#savannah {
+    background-color: #e7c6ffa2;
+    margin-top: 180px;
+    padding: 24px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+#melvin {
+    background-color: #e7c6ffa2;
+    margin-top: 180px;
+    padding: 24px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+#lilly {
+    background-color: #e7c6ffa2;
+    margin-top: 180px;
+    padding: 24px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+#button {
+    background-color: #5a189a;
+    margin: 50px;
+    padding: 0px 24px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+#button:hover {
+    background: linear-gradient(to top, #a5a6f6, #7879f1);
+}
+
+#hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url("../images/animal volunteer.jpeg");
+    height: 90vh;
+    background-size: cover;
+}
