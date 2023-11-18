@@ -234,4 +234,8 @@ a {
     .two-cards {
         flex-direction: column;
     }
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
 }
