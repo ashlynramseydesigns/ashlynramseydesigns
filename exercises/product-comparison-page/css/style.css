@@ -4,7 +4,8 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgoldenrodyellow;
 }
 
 .single-column {
@@ -13,19 +14,66 @@ body {
     margin: 0px auto;
 }
 
-#main-section {
-    background: 
-        radial-gradient(at top left, #00a896, #8122ed);
+#top-section {
+    background-color: lightskyblue;
+    color: rgba(0, 0, 255, 0.629);
     padding: 48px;
+    text-align: center;
 }
 
+#top-section h1 {
+    font-size: 72px;
+    margin: 12px 0px 48px;
+}
+
+#top-section img {
+    width: 80%;
+}
+
+#top-section h2 {
+    font-size: 36px;
+    margin: 12px 0px 48px;
+}
+
+#card-section {
+    background-color: rgb(249, 142, 158);
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    background-color: lightslategray;
+    color: rgb(204, 219, 234);
+    padding: 12px;
+    text-align: center;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    flex: 1;
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    flex: 1;
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+
+#main-section {
+    background: 
+        radial-gradient(at top left, lightskyblue, rgb(0, 128, 255));
+    padding: 48px;
+}
 
 .side-by-side {
     display: flex;
     align-items: center;
-    margin: 48px 0px;
+    padding: 72px 0px;
 }
-
 
 .side-by-side .image-container {
     flex: 1;
@@ -41,41 +89,26 @@ body {
 }
 
 .side-by-side .text-container h3 {
-    font-size: 30px;
-    text-align: center;
-    margin: 24px;
+    font-size: 48px;
 }
 
 .side-by-side .text-container a {
     font-size: 28px;
-    font-weight: bolder;
+    font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: #f0f3bd;
-    color: darkcyan;
+    background-color: rgb(250, 212, 212);
+    color: rgb(1, 1, 185);
     padding: 24px 48px;
     border-radius: 48px;
 }
 
-* {
-    box-sizing: border-box
+.image-break {
+    text-align: center;
 }
 
-body {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.single-column {
-    min-width: 600px;
-    max-width: 1200px;
-    margin: 0px auto;
-}
-
-#main-section {
-    background: 
-        radial-gradient(at top left, #d86fee, #8122ed);
-    padding: 48px;
+.image-break img {
+    width: 200px;
 }
 
 .comparisons-container {
@@ -87,37 +120,37 @@ body {
     font-size: 36px;
 }
 
-
-.comparisons-layout-1 {
+.comparisons-layout {
     display: flex;
     justify-content: center;
 }
 
-.comparisons-layout-1 .comparison-column {
+.comparisons-layout .comparison-column {
     background-color: #bfefff;
-    border: 3px solid #d86fee;
+    border: none;
     padding: 24px;
+
 }
 
-.comparisons-layout-1 .comparison-column h4,
-.comparisons-layout-1 .comparison-column p {
+.comparisons-layout .comparison-column h4,
+.comparisons-layout .comparison-column p {
     padding: 24px 48px;
 }
 
-.comparisons-layout-1 .comparison-column h4 {
+.comparisons-layout .comparison-column h4 {
     background-color: #8122ed;
     color: #bfefff;
     font-size: 24px;
     margin: 0px
 }
 
-.comparisons-layout-1 .comparison-column p {
+.comparisons-layout .comparison-column p {
     font-size: 18px;
     margin: 0px;
     border-top: 3px solid #8122ed;
 }
 
-.comparisons-layout-1 .comparison-column .label {
+.comparisons-layout .comparison-column .label {
     display: block;
     font-weight: bold;
     padding-bottom: 12px;
@@ -143,7 +176,6 @@ body {
     padding: 24px;
     font-size: 24px;
 }
-
 
 .comparisons-layout-3 {
     display: grid;
