@@ -3,8 +3,8 @@
 }
 
 body {
-    background-image: url("../images/background.png");
-    background-size: 400px;
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     margin: 0px;
@@ -44,7 +44,11 @@ body {
 
 #logo img,
 #title img {
-    width: 100%;
+    display: flex;
+    width: 250px;
+    align-items: center;
+    margin-left: 190px;
+    margin-bottom: 24px;
 }
 
 #contact-container {
@@ -283,6 +287,12 @@ h4 {
 .side-by-side .menu-container div .dots {
     border-bottom: 2px dotted black;
     flex: 1;
+}
+
+#menu-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
