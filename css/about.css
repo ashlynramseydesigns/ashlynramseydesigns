@@ -1,98 +1,131 @@
-body a {
-    display: flex;
-    text-align: right;
-    padding: 24px;
-    background-color: aqua;
-}
-
-#image-1 {
-    display: inline-block;
-    border-radius: 100%;
-    width: 250px;
-    height: 250px;
-}
-
-#image-2 {
-    width: 100px;
-}
-
-#paragraph-1 {
-    text-align: center;
-    display: inline-block;
-    margin-left: 15px;
-    background: aqua;
-    border-radius: 45px;
-    padding: 24px;
-}
-#paragraph-2 {
-    text-align: center;
-    font-style: italic;
-    display: inline-block;
-    margin-left: 5px;
-}
-
-.frame-1 {
-    border: 5px solid rgb(158, 232, 249);
-    margin: 15px 0px;
-    width: 225px;
-    box-shadow: 10px 1px 5px rgba(162, 225, 240, 0.621);
-    text-align: center;
-}
-div {
-    text-align: center;
-    display: inline-block;
-}
-
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: cursive;
+    background-size: cover;
+    background-image: url("../images/background-hero.jpeg");
 }
 
-/* navbar stlyes*/
 #navbar {
-    background: linear-gradient(to bottom, green, #3e6d3e);
+    background: linear-gradient(to bottom, #90e0ef, #023e8a);
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    /* 
-        Below is how you can make your navbar follow
-        you as you scroll the page. 
-    */
-    position: sticky;
-    top: 0px;
 }
 
 #navbar a {
+    display: inline-block;
     text-decoration: none;
-    color: white;
+    color: #caf0f8;
     padding: 24px;
 }
 
-#navbar img {
-    width: 200px;
+#navbar a:hover {
+    background: linear-gradient(to top, #48cae4, #0077b6);
+    border-radius: 20px;
 }
 
+/* not set in stone*/
 #navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: #0077b6;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #48cae4;
+}
+
+#single-column-layout {
+    width: 50%;
+    min-width: 500px;
+    max-width: 800px;
+    margin-left: auto;
     margin-right: auto;
 }
 
-#navbar .cta-button {
-    background-color: white;
-    color: green;
-    border-radius: 36px;
-    padding: 16px 24px;
-    font-size: 20px;
-    min-width: 150px;
+#home-page {
+    background-color: #e7c6ffa2;
+    margin-top: 80px;
+    padding: 50px;
+    margin: 24px;
     text-align: center;
-    margin-right: 24px;
+    border-radius: 24px;
 }
 
-#layout {
-    width: 800px;
-    margin: 48px auto;
-    font-size: 24px;
-    height: 200vh;
+.container-1 {
+    display: flex;
+    justify-content: center;
+    border: 6px dotted #caf0f8;
+    background-color: #48cae4;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.container-1 img {
+    border-radius: 50%;
+}
+
+#paragraph-1 {
+    margin: 24px;
+    text-align: right;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    border: 6px dotted #caf0f8;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+#paragraph-2 {
+    margin: 24px;
+    text-align: center;
+}
+
+
+#hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url("../images/background-hero.jpeg");
+    height: 90vh;
+    background-size: cover;
 }
