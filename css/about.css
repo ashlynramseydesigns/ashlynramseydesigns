@@ -27,13 +27,8 @@ body {
     border-radius: 20px;
 }
 
-/* not set in stone*/
-#navbar #logo {
-    margin-right: auto;
-    font-weight: bold;
-    font-size: 36px;
-    padding-top: 13px;
-    padding-bottom: 12px;
+#navbar img {
+    padding: 24px;
 }
 
 .dropdown-container {
