@@ -7,6 +7,7 @@ body {
     font-family: cursive;
     background-size: cover;
     background-image: url("../images/background-hero.jpeg");
+    min-height: 100vh;
 }
 
 #navbar {
@@ -42,6 +43,7 @@ body {
     transition: 
         opacity 0.25s,
         visibility 0.25s;
+    left: -50px;
 }
 
 .dropdown-container:last-child .dropdown-menu {
@@ -57,6 +59,17 @@ body {
     background-color: #0077b6;
     width: 100%;
     min-width: 200px;
+    text-align: center;
+}
+
+.dropdown-menu a:first-child {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.dropdown-menu a:last-child {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 #navbar .dropdown-menu a:hover {
@@ -123,4 +136,16 @@ body {
     background-image: url("../images/background-hero.jpeg");
     height: 90vh;
     background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url("../images/background-hero.jpeg");
+    }
+    #navbar {
+        flex-direction: column;
+    }
+    #navbar a {
+        padding: 5px;
+    }
 }
