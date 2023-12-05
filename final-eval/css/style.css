@@ -103,4 +103,8 @@ a {
         flex-direction: column;
         height: 100vh;
     }
+    .button {
+        flex-direction: column;
+        height: 100vh;
+    }
 }
