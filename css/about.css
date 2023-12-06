@@ -234,11 +234,13 @@ h1 {
 h3 {
     text-align: center;
     font-style: cursive;
+    font-size: 50px;
 }
 
 .vertical-masonry-gallery {
     columns: 3 auto;
     column-gap: 24px;
+    padding: 25px;
 }
 
 .vertical-masonry-gallery img {
