@@ -132,6 +132,16 @@ body {
     margin-bottom: 24px;
 }
 
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
 .spacer {
     height: 24vh;
     background-image: url("../images/emerald-seas.jpg");
