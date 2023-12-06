@@ -31,6 +31,7 @@ body {
 
 #navbar img {
     padding: 24px;
+    margin-right: auto;
 }
 
 .dropdown-container {
@@ -127,19 +128,33 @@ body {
     background-position: 270px center;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     margin-top: 24px;
     margin-bottom: 24px;
 }
 
+h1 {
+    color: #caf0f8;
+    font-style: cursive;
+    text-align: center;
+}
+
+#hero-1 h1 {
+    margin: 24px;
+}
+
 #hero-1 a {
-    font-size: 1.5vw;
-    display: inline-block;
-    background-color: #333333;
-    color: white;
+    font-size: 15px;
+    display: flex;
+    background:
+        linear-gradient(-50deg, #023e8a, #48cae4, #a7effb)
+    ;
+    color: black;
     text-decoration: none;
-    padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
+    padding: 10px;
+    margin: 12px 70px;
+    border-radius: 24px;
 }
 
 .spacer {
@@ -155,18 +170,6 @@ body {
     justify-content: center; 
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        background-image: url("../images/background-hero.jpeg");
-    }
-    #navbar {
-        flex-direction: column;
-    }
-    #navbar a {
-        padding: 5px;
-    }
-}
-
 #main {
     width: 90vw;
     max-width: 800px;
@@ -177,6 +180,8 @@ body {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     width: 350px;
     margin: 24px;
     border: 2px solid #caf0f8;
@@ -202,6 +207,7 @@ body {
 .card p {
     font-size: 18px;
     text-align: center;
+    flex: 1;
 }
 
 .button {
@@ -223,4 +229,34 @@ body {
 .button:hover {
     background-color: transparent;
     color: lightcyan;
+}
+
+h3 {
+    text-align: center;
+    font-style: cursive;
+}
+
+.vertical-masonry-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url("../images/background-hero.jpeg");
+    }
+    #navbar {
+        flex-direction: column;
+    }
+    #navbar a {
+        padding: 5px;
+    }
+    #navbar img {
+        margin-right: 0px;
+    }
 }
