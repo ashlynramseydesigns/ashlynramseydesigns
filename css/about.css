@@ -141,6 +141,11 @@ h1 {
     justify-content: center; 
 }
 
+#hero-2 {
+    display: flex;
+    flex-direction: column;
+}
+
 #hero-2 h1 {
     background-color: #023e8a;
     padding: 24px;
@@ -156,6 +161,7 @@ h1 {
         color 0.5s
     ;
 }
+
 
 #main {
     width: 90vw;
