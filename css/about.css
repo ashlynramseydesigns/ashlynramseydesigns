@@ -80,7 +80,7 @@ body {
 
 #hero-1 {
     background-image: url("../images/flower-design.jpeg");
-    height: 30vh;
+    min-height: 30vh;
     background-size: cover;
     background-position: 270px center;
     display: flex;
@@ -133,6 +133,7 @@ h1 {
         background-color 0.5s,
         color 0.5s
     ;
+    margin-bottom: 24px;
 }
 #hero-1 .button:hover {
     color: white;
@@ -284,5 +285,11 @@ h3 {
     }
     .vertical-masonry-gallery {
         columns: 2 auto;
+    }
+    #hero-1 .button  {
+        margin-bottom: 24px;
+    }
+    #hero-1 {
+        align-items: center;
     }
 }
