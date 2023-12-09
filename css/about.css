@@ -176,6 +176,7 @@ h1 {
     border: 6px dotted #caf0f8;
     background-color: #48cae4;
     margin: 24px;
+    margin-top: 5px;
     padding: 24px;
     border-radius: 15px;
     align-items: center;
@@ -275,10 +276,13 @@ h3 {
     #navbar {
         flex-direction: column;
     }
-    #navbar a {
-        padding: 5px;
+    #navbar a:last-child {
+        margin-bottom: 24px;
     }
     #navbar img {
         margin-right: 0px;
+    }
+    .vertical-masonry-gallery {
+        columns: 2 auto;
     }
 }
