@@ -27,6 +27,7 @@ body {
 #navbar a:hover {
     background: linear-gradient(to top, #48cae4, #0077b6);
     border-radius: 20px;
+    padding: 10px;
 }
 
 #navbar img {
