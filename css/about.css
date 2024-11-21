@@ -21,7 +21,6 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #caf0f8;
-    text-size-adjust: auto;
     padding: 50px;
 }
 
@@ -33,7 +32,6 @@ body {
 #navbar img {
     padding: 10px;
     margin-right: center;
-
 }
 
 #single-column-layout {
