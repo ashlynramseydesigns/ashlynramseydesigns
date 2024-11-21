@@ -21,6 +21,7 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #caf0f8;
+    text-size-adjust: auto;
     padding: 50px;
 }
 
