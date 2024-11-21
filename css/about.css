@@ -21,7 +21,7 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #caf0f8;
-    padding: 10px;
+    padding: 50px;
 }
 
 #navbar a:hover {
@@ -30,7 +30,7 @@ body {
 }
 
 #navbar img {
-    padding: 50px;
+    padding: 10px;
     margin-right: center;
 
 }
