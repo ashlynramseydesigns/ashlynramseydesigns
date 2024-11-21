@@ -30,8 +30,9 @@ body {
 }
 
 #navbar img {
-    padding: 10px;
-    margin-right: auto;
+    padding: 24px;
+    margin-right: center;
+
 }
 
 #single-column-layout {
