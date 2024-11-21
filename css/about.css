@@ -29,6 +29,11 @@ body {
     border-radius: 20px;
 }
 
+#navbar img {
+    padding: 10px;
+    margin-right: auto;
+}
+
 #single-column-layout {
     width: 50%;
     min-width: 500px;
